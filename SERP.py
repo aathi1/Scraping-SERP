@@ -5,14 +5,9 @@ import time
 from pandas import read_excel
 import threading
 """
-What actually happening here for my future self.
-importing things
-we are doing basically three types of search
-one is primary source scouring, linkedin scouring and resume with pds's and without.
-it could be atleast 75% perfect.
 
-basic is searching terms, by forming the urls and extracting links and titles from the 
-google's first page results. most of the time we get resources there.
+What we are doing here is searching terms, by forming the urls and extracting links and titles from the 
+google's first page results.
 
 rest are just string manipulation
 splitting the urls and checking for condition that would satisfy the needs.
